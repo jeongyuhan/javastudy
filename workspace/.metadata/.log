@@ -2066,3 +2066,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2021-03-16 15:36:21.174
 !MESSAGE close() called when useCnt is already zero for Repository[D:\SPRING0303\javastudy\.git\.git]
+
+!ENTRY org.eclipse.equinox.security 1 0 2021-03-16 15:39:30.631
+!MESSAGE New keyring password generated. 
