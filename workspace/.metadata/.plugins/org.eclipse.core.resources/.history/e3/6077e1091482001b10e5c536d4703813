@@ -1,0 +1,32 @@
+package ex01_user_type;
+
+import java.sql.Date;
+import java.util.Calendar;
+
+public class BookMain {
+
+	public static void main(String[] args) {
+		
+		Book book = new Book();
+		book.title = "어린왕자";
+		book.writer = "생텍쥐베리";
+		book.price = 12000;
+		book.stock = 10000;
+		Calendar date = Calendar.getInstance();
+		date.set(2020, 0, 10);
+		long timestamp = date.getTimeInMillis();
+		book.pubDate = new Date(timestamp);
+		book.isBest = true;
+		
+		if(book.isBest == true) {
+			System.out.println("베스트셀링 입니다.");
+		} else {
+			System.out.println("베스트셀링이 아닙니다.");
+		}
+
+		System.out.println("제목: " + book.title + "저자: " + book.writer + "가격: " + book.price + "재고: " + book.stock + "출판일: " + book.pubDate + "\n" + book.isBest);
+		
+		
+	}
+
+}

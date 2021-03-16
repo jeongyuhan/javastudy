@@ -1,0 +1,21 @@
+package ex02_method;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person();
+		
+		p.set("alice", 30, '여', false); // set() 메소드의 매개변수로 전달해주는 인수가 4개
+		System.out.println(p.name);
+		System.out.println(p.age);
+		System.out.println(p.gender);
+		System.out.println(p.isKorean?"한국인":"외국인");
+		
+		
+		
+		
+
+	}
+
+}

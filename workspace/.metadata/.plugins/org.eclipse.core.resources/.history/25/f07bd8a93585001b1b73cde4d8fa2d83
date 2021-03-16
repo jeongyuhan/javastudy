@@ -1,0 +1,18 @@
+package quiz08;
+
+public class Singer {
+
+	// field
+	private String name;
+	private Song[] songs;
+	
+	// constructor
+	public Singer(String name, Song[] songs) {
+		this.name = name;
+		this.songs = songs;
+	}
+	
+	
+	
+	
+}

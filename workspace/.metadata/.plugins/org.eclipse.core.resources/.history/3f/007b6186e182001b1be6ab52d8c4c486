@@ -1,0 +1,22 @@
+package quiz02;
+
+public class Coord {
+
+	//field
+	private int x;
+	private int y;
+	
+	// constructor
+	public Coord(int x, int y) {
+		if (x == 0) {
+			this.y = x;
+		}
+	}
+	
+	// method
+	public void info() {
+		System.out.println("[" + x +", " + y + "]");
+	}
+	
+	
+}

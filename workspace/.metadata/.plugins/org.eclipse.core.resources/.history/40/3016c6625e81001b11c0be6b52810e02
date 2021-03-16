@@ -1,0 +1,18 @@
+package ex02_String;
+
+public class Ex01_String {
+
+	public static void main(String[] args) {
+		
+		String a = "apple";
+		String b = "apple";
+		
+		a = b;
+		System.out.println(a=b);
+		
+		
+		
+
+	}
+
+}

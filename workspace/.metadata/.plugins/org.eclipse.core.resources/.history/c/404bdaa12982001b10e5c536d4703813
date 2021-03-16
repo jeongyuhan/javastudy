@@ -1,0 +1,21 @@
+package quiz02;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+			
+		Calculator calc; // 객체는 없고, 참조 변수만 있는 상태이다.
+		
+		// 객체를 만드는 명령은 "new" 이다.
+		
+		calc = new Calculator(); // 객체가 만들어지고, 그 참조값이 calc에 전달된다.
+								 // 객체가 만들어지는 시점을 "인스턴스화" 되었다고 한다.
+		
+		calc.addition(1, 2);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package quiz01;
+
+import java.sql.Date;
+
+public class Watch {
+
+	int hour;
+	int minute;
+	int second;
+	
+	public Watch(int hour, int minute, int second) {
+		this.hour = hour;
+		this.minute = minute;
+		this.second = second;
+	}
+	
+	public int addHour(int h) {
+		if(h != 0) {
+			return (h % 24);
+		} else {
+			return 0;
+		}
+	}
+	
+	public void see() {
+		System.out.println();
+	}
+	
+	
+}

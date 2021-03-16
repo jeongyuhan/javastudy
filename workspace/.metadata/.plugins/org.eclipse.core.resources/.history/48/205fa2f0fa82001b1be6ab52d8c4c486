@@ -1,0 +1,10 @@
+package quiz05;
+
+public class BankAccount {
+
+	// field
+	private String accNo;
+	private long balance;
+	
+	
+}

@@ -1,0 +1,32 @@
+package ex03_overloading;
+
+/*
+	오버로딩(overloading)
+	1. 이름이 같고, 매개변수가 다른 메소드가 있음을 의미한다.
+ 	2. 결과타입은 오버로딩과 상관이 없다.	
+ 	   이름이 같고 결과타입이 다른 메소드는 만들수가 없다.
+*/
+
+public class Rectangle {
+
+	// field
+	int width;	// 너비
+	int height;	// 높이
+	
+	// method
+	void set(int w, int h) {
+		width = w > 0 ? w : 0 ;
+		height = h > 0 ? h : 0;
+	}
+
+	void set(int n) {
+		width = n > 0 ? n : 0;
+		height = n > 0 ? n : 0;
+	}
+	
+	int gerArea() {
+		return width * height;
+	}
+	
+	
+}

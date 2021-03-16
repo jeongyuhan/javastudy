@@ -1,0 +1,15 @@
+package quiz04;
+
+public class Gun {
+
+	private String model;
+	private int bullet; //총알수
+	private final int FULL_BULLET = 6; // 최대 6발 가능
+	
+	
+	
+	
+	
+	
+	
+}

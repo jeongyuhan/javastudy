@@ -1,0 +1,43 @@
+package quiz05;
+
+public class BankAccount {
+
+	// field
+	private String accNo;
+	private long balance;
+
+	// constructor
+	public BankAccount(String accNo, long balance) {
+		this.accNo = accNo;
+		this.balance = balance;
+	}
+	
+	// method
+	public void deposit(int money) {
+		if(money <= 0) {
+			System.out.println(money + "원은 입금 불가능");
+			return; // 
+		} 
+		balance += money;			
+	}
+	
+	public void withdraw(int money) {
+		if(money <= 0) {
+			System.out.println(money + "원은 출금 불가능");
+			return;
+		} else if(money > balance) {
+			System.out.println("잔액 부족");
+			return;
+		} 
+			balance -= money;	
+	}
+	
+	public void inquiry() {
+		System.err.println("계좌번호: " + accNo + "(" + balance + ")");
+	}
+	
+	
+	
+	
+	
+}

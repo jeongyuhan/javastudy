@@ -1,0 +1,19 @@
+package quiz10;
+
+public class Lecture {
+
+	// field
+	private String lecture;
+	
+	// constructor
+	public Lecture (String lecture, String[] names) {
+		this.lecture = lecture;
+	}
+	
+	// method
+	public void exam() {
+		
+	}
+	
+	
+}
