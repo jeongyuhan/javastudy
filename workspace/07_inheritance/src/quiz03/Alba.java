@@ -1,4 +1,4 @@
-package quiz;
+package quiz03;
 
 public class Alba extends Staff {
 
@@ -32,6 +32,10 @@ public class Alba extends Staff {
 		return payPerHour * times;
 	}
 	
-	
+	@Override
+	public void info() {
+		super.info(); // Staff의 info() 호출
+		System.out.println("페이 : " + getPay());
+	}
 	
 }

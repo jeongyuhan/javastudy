@@ -1,4 +1,4 @@
-package quiz;
+package quiz03;
 
 // SalseMan을 Staff밑에 만들면 salary를 다시줘야하기 때문에 SalaryMan 밑에 만드는 것이 좋다.
 public class SalesMan extends SalaryMan{
@@ -48,7 +48,12 @@ public class SalesMan extends SalaryMan{
 		return super.getPay() + getSalesPay();
 	}
 	
-	
+	@Override
+	public void info() {
+		super.info(); // SalaryMan의 info() 호출
+		System.out.println("판매수당 : " + getSalesPay());
+		System.out.println("총합 : " + getPay());
+	}
 	
 	
 	

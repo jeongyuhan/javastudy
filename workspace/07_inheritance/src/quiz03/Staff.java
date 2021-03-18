@@ -1,4 +1,4 @@
-package quiz;
+package quiz03;
 
 public class Staff {
 
@@ -19,7 +19,9 @@ public class Staff {
 		this.name = name;
 	}
 	
-	
+	public void info() {
+		System.out.println("직원명 : " + name);
+	}
 	
 	
 	

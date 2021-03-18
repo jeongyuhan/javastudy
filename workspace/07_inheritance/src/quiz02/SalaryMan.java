@@ -1,4 +1,4 @@
-package quiz;
+package quiz02;
 
 public class SalaryMan extends Staff {
 
@@ -16,6 +16,11 @@ public class SalaryMan extends Staff {
 		return salary;
 	}
 	
+	@Override
+	public void info() {
+		super.info(); // Staff의 info() 호출
+		System.out.println("기본급 : " + salary);
+	}
 	
 	
 	
