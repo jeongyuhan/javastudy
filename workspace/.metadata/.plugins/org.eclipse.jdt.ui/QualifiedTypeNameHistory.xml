@@ -19,7 +19,6 @@
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="ex02_method.Person"/>
 <fullyQualifiedTypeName name="java.awt.Rectangle"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex04_this.Car"/>
 <fullyQualifiedTypeName name="ex07_recursive.SayHello"/>
 <fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
@@ -40,4 +39,11 @@
 <fullyQualifiedTypeName name="quiz12.SeatGroup"/>
 <fullyQualifiedTypeName name="quiz12.ConcertHall"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="quiz.SalaryMan"/>
+<fullyQualifiedTypeName name="quiz.SalesMan"/>
+<fullyQualifiedTypeName name="quiz.Alba"/>
+<fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
 </qualifiedTypeNameHistroy>
