@@ -31,7 +31,6 @@
 <fullyQualifiedTypeName name="quiz06.BreadAndChange"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="quiz04.Soldier"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="javax.swing.DebugGraphics"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
 <fullyQualifiedTypeName name="quiz11.WeekScheduler"/>
@@ -43,7 +42,11 @@
 <fullyQualifiedTypeName name="quiz.SalesMan"/>
 <fullyQualifiedTypeName name="quiz.Alba"/>
 <fullyQualifiedTypeName name="ex08_upcasting.Tv"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
+<fullyQualifiedTypeName name="quiz02.Company"/>
+<fullyQualifiedTypeName name="ex11_abstract.SalaryMan"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="quiz04.KoreanFighter"/>
 </qualifiedTypeNameHistroy>
