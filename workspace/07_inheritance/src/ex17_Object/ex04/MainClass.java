@@ -26,6 +26,13 @@ public class MainClass {
 		} else
 		System.out.println("다른 종류의 제품입니다.");
 		// 각각 new로 생성된 서로 다른 객체라고 자바에서는 인식하기 때문에 다르다.(참조값을 비교)
+
+		// Object 클래스의 equals() 와 String 클래스의 equals() 는 다르다.
+		// Object 클래스의 equals()는 객체의 주소(참조)값을 비교한다면,
+		// String 클래스의 equals()는 문자열을 비교한다.
+		// String 클래스의 equals()는 Object 클래스의 equals()를 오버라이드 하여 사용하는 것이라고 보면 된다.
+		
+		
 	}
 
 }
