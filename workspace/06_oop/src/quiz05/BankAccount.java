@@ -16,7 +16,7 @@ public class BankAccount {
 	public void deposit(long money) {
 		if(money <= 0) {
 			System.out.println(money + "원은 입금 불가능");
-			return; // 
+			return; 
 		} 
 		balance += money;			
 	}
