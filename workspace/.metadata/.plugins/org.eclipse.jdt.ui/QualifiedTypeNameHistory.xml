@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.util.Calendar.Builder"/>
 <fullyQualifiedTypeName name="ex03_api.Quiz02"/>
@@ -44,7 +41,6 @@
 <fullyQualifiedTypeName name="ex14_interface.Zoo"/>
 <fullyQualifiedTypeName name="ex15_interface_extends.SmartPhone"/>
 <fullyQualifiedTypeName name="ex16_interface_extends.Snake"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="quiz05.Marine"/>
 <fullyQualifiedTypeName name="quiz05.Firebat"/>
 <fullyQualifiedTypeName name="quiz01.Calculator"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="ex07_exception.DepositException"/>
 <fullyQualifiedTypeName name="ex07_exception.WithdrawException"/>
 <fullyQualifiedTypeName name="ex07_exception.BankAccount"/>
+<fullyQualifiedTypeName name="ex08_exception_class.BankAccount"/>
+<fullyQualifiedTypeName name="ex08_exception_class.BankAccountException"/>
+<fullyQualifiedTypeName name="ex08_static.MyMath"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
