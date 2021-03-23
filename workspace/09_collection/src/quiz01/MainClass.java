@@ -51,7 +51,7 @@ public class MainClass {
 			System.out.println(member);
 		}
 		
-		
+		sc.close();
 		
 		
 	}
