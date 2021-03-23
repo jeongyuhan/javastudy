@@ -39,7 +39,31 @@ public class LoopForHashMap {
 		// 두가지 코드 모두 Set을 이용하여야 한다.
 		
 		
+		// 3. 데이터 쌍(pair)으로 뺄 수 있다.
+		// entry : key와 value를 묶어서 entry라고 한다.
+		// key : getKey()
+		// value : getValue()
+		Set<Map.Entry<String, String>> entrys = me.entrySet();
 		
+		// 1) for문
+		for(Map.Entry<String, String> entry : entrys) {
+			String key = entry.getKey();
+			String value = entry.getValue();
+			System.out.println(key + " : " + value);
+		}
+		
+		// 2) Iterator
+		Iterator<Map.Entry<String, String>> itr2 = entrys.iterator();
+		while(itr2.hasNext()) {
+			Map.Entry<String, String> entry = itr2.next();
+			String key = entry.getKey();
+			String value = entry.getValue();
+			System.out.println(key + " : " + value);
+
+		}
+		
+		// entry의 타입은 Map.Entry<String, String> 이다.
+		// entry 또한 Set이기 때문에 for문과 Iterator를 통한 while문 두가지 모두 가능하다.
 		
 		
 		
