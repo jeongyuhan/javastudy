@@ -31,7 +31,7 @@ public class Library {
 	
 	// 삭제(1)
 	public void removeBook(int bNo) {
-		int removeIdx = -1;
+		int removeIdx = -1; // 초기화값을 0으로 줄 경우 인덱스는 0부터 시작하므로 불편함이 생긴다.
 		for(int i = 0, length = books.size(); i < length; i++) {
 			if(books.get(i).getBNo() == bNo) {
 				removeIdx = i;
