@@ -29,7 +29,7 @@ public class ArrayListMainClass {
 		list.add("짱구");
 		list.add("자두");
 		list.add("둘리");
-		list.add("띠띠뽀");		
+		list.add("띠띠뽀");			
 		// 순서대로 추가하려면 일반 add(String s)를 사용하고
 		// 저장할 위치의 인덱스를 지정하여 저장하려면 add(int index, String s)을 사용한다.
 		

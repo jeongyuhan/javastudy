@@ -30,8 +30,8 @@ public class IteratorMainClass {
 		Iterator<String> itr1 = set.iterator(); // set를 순회할 수 있는 itr 객체 생성
 		// Iterator는 인터페이스이기 때문에 new로 생성하는 것이 불가능하다.
 		
-		// hasNext() : 다음 요소가 있으면 true, 없으면 false를 반환
-		// next()	 : 다음 요소를 가져온다.
+		// hasNext() : 다음 요소가 있으면 true, 없으면 false를 반환 (조건문에사용)
+		// next()	 : 다음 요소를 가져온다. (데이터를 받아오는 메소드)
 		
 		// 순회
 		while(itr1.hasNext()) { // set에 남아 있는 요소가 있으면이라는 의미
