@@ -21,7 +21,7 @@ public class MainClass {
 		System.out.println(box2.getItem());
 		
 		Box<Fruit> box3 = new Box<Fruit>();
-		box3.setItem(new Fruit("apple", 1000));
+		box3.setItem(new Fruit("apple", 1000)); // setItem()에 들어가는 매개변수가 Fruit인 것이고 매개변수 자리에서 생성자를 생성해주면서 값을 전달해주는 것이다.
 		System.out.println(box3.getItem());
 		
 		
