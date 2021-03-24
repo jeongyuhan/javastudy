@@ -23,6 +23,7 @@ public class MainClass {
 			
 			// 3. 접속
 			// DriverManager 클래스가 접속을 담당하고,
+			// getConnection()을 이용해 접속 정보를 받아온다.
 			// 접속 결과는 Connection 인터페이스에 저장한다.
 			Connection con = DriverManager.getConnection(url, user, password); // SQLException 발생 가능.				
 			
