@@ -33,14 +33,16 @@ public class StaffDao {
 	//					 : 클래스 메소드로 바꿔서 호출한다. static 처리를 해야한다.
 	//					 : static 메소드는 static 필드만 사용가능하다.(실행되는 순서에 따라 오류가 발생하기 때문이다.)
 	
+	// field
 	private StaffDao() {}
 	private static StaffDao staffDao = new StaffDao();
+	
+	// constructor
 	public static StaffDao getInstance() {
 		return staffDao;
 	}
-	
+		
 	// method
-	
 	/********1. 접속 ********/
 	public Connection getConnection() throws Exception {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
