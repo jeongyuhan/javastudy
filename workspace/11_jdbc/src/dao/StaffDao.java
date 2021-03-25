@@ -32,12 +32,8 @@ public class StaffDao {
 	// 	2) 클래스를 통한 호출		 
 	//					 : 클래스 메소드로 바꿔서 호출한다. static 처리를 해야한다.
 	//					 : static 메소드는 static 필드만 사용가능하다.(실행되는 순서에 따라 오류가 발생하기 때문이다.)
-	
-	// field
 	private StaffDao() {}
-	private static StaffDao staffDao = new StaffDao();
-	
-	// constructor
+	private static StaffDao staffDao = new StaffDao();	
 	public static StaffDao getInstance() {
 		return staffDao;
 	}
@@ -57,10 +53,10 @@ public class StaffDao {
 		try {
 			if(rs != null) rs.close();
 			if(ps != null) ps.close();
-			if(con != null) con.close();			
-		} catch (Exception e) {
+			if(con != null) con.close();
+		} catch(Exception e) {
 			e.printStackTrace();
-		} 
+		}
 	}
 	
 	
