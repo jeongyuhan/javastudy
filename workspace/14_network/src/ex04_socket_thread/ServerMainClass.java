@@ -25,7 +25,7 @@ public class ServerMainClass {
 				
 				// 클라이언트들의 파일 전송
 				FileUploadThread upload = new FileUploadThread(); // thread 생성
-				upload.setClient(client); 
+				upload.setClient(client); // client를 통한 스트림 생성이 필요하므로 thread에 전달해준다.
 				upload.start(); // thread 실행
 						
 			}
