@@ -16,7 +16,7 @@ public class ServerMainClass {
 		
 		try {
 			server = new ServerSocket();
-			server.bind(InetSocketAddress.createUnresolved("localhost", 4966));
+			server.bind(new InetSocketAddress("localhost", 4966));
 			
 			while(true) {
 				
